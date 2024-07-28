@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports={
-  content: ["./src/*.{html,js}", "./js/*.{html,js}"],
+  content: ["./*.html", "./public/js/*.{html,js}"],
   theme: {
     extend: {
       colors: {
@@ -30,11 +30,11 @@ module.exports={
         custom2: '0px 0px 30px 0px rgba(8,73,81,0.06)',
       },
       backgroundImage: {
-        services: 'url(../assets/assets/img/services/bg.svg)',
-        testimonials: 'url(../assets/assets/img/testimonials/bg.svg)',
-        departments: 'url(../assets/assets/img/departments/bg.svg)',
-        quoteLeft: 'url(../assets/assets/icons/testimonials/quote-left.svg)',
-        quoteRight: 'url(../assets/assets/icons/testimonials/quote-right.svg)',
+        services: 'url(../public/assets/img/services/bg.svg)',
+        testimonials: 'url(../public/assets/img/testimonials/bg.svg)',
+        departments: 'url(../public/assets/img/departments/bg.svg)',
+        quoteLeft: 'url(../public/assets/icons/testimonials/quote-left.svg)',
+        quoteRight: 'url(../public/assets/icons/testimonials/quote-right.svg)',
         // departments: 'url(./assets/assets/img/departments/bg.svg)',
       },
     },

@@ -1081,15 +1081,15 @@ video {
 }
 
 .bg-departments {
-  background-image: url(../assets/assets/img/departments/bg.svg);
+  background-image: url(../public/assets/img/departments/bg.svg);
 }
 
 .bg-services {
-  background-image: url(../assets/assets/img/services/bg.svg);
+  background-image: url(../public/assets/img/services/bg.svg);
 }
 
 .bg-testimonials {
-  background-image: url(../assets/assets/img/testimonials/bg.svg);
+  background-image: url(../public/assets/img/testimonials/bg.svg);
 }
 
 .bg-cover {
@@ -1649,7 +1649,7 @@ h6 {
 
 .before\:bg-quoteLeft::before {
   content: var(--tw-content);
-  background-image: url(../assets/assets/icons/testimonials/quote-left.svg);
+  background-image: url(../public/assets/icons/testimonials/quote-left.svg);
 }
 
 .before\:bg-contain::before {
@@ -1689,7 +1689,7 @@ h6 {
 
 .after\:bg-quoteRight::after {
   content: var(--tw-content);
-  background-image: url(../assets/assets/icons/testimonials/quote-right.svg);
+  background-image: url(../public/assets/icons/testimonials/quote-right.svg);
 }
 
 .after\:bg-contain::after {
